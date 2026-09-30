@@ -6,4 +6,4 @@ Predicción del precio de venta para la [competición de Kaggle](https://www.kag
 
 El cuaderno es `nb_HousePrices.ipynb`.
 
-Sobre la simplicidad de la solución decir que, mezclar TabPFN con el stack clásico empeoró el resultado. También supusieron resultados mucho peores ensembles de gradient boosting más complejos.
+La solución es **TabPFN v2**, sin ninguna mezcla o voting. Se entrena en cinco particiones, con semilla 42 y sin early stopping. La variable objetivo está en log1p. Cada partición predice el test y el envío es la media de esas cinco predicciones. Además de eso, las categóricas entran como texto. El train supera el límite por defecto del modelo, así que ese límite se ignora.
