@@ -1,6 +1,6 @@
 # House Prices - Advanced Regression Techniques
 
-Predicción del precio de venta para la [competición de Kaggle](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques). La métrica es el RMSLE.
+Predicción del precio de venta de la vivienda para la [competición de Kaggle](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques). La métrica es el RMSLE. Se ha empleado FE avanzado y una solución simple pero eficaz
 
 **Score: 0.11515** en el leaderboard público, con TabPFN v2. **Resultado TOP 1%**
 
